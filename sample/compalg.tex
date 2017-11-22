@@ -1,0 +1,51 @@
+%!tex program=xelatex
+%!tex root=main.tex
+\def\bul{$\bullet$}
+\newcommand\butzero{\setminus\zero}
+\DeclareMathOperator{\ideal}{Ideal}
+\DeclareMathOperator{\spoly}{S-poly}
+\DeclareMathOperator{\co}{co}
+\DeclareMathOperator{\gdim}{G-dim}%{dim^G\kern -.125em}
+\DeclareMathOperator{\kdim}{k-dim}%{dim^K\kern -.125em}
+\DeclareMathOperator{\ndim}{n-dim}%{dim^N\kern -.125em}
+\DeclareMathOperator{\RF}{RF}
+\DeclareMathOperator{\Spec}{Spec}
+\newcommand{\s}{$\mathrm{S}$}
+\renewcommand{\S}{$\mathbf{\color{myboldcolor}S}$}
+\newcommand{\rf}[1]{\overline{#1}}
+\newcommand{\Rf}[2]{\rf{\RF(#1,#2)}^{#1}}
+\DeclareMathOperator\Var{\mathcal{V}}
+\newcommand{\CoCoA}{{\tt CoCoA}}
+\newcommand\V{\Var}
+\DeclareMathOperator\LeadTerm{LT}
+\DeclareMathOperator\LeadCoeff{LC}
+\DeclareMathOperator\LeadMonom{LM}
+\DeclareMathOperator\NormalForm{NF}
+\DeclareMathOperator\Syzygy{Syz}
+\DeclareMathOperator\Hamyuqi{\text{\scriptsize\nastaliq می}\!}%{\text{\scriptsize\nastaliq می}\!}%{{\frak G}}
+\DeclareMathOperator\Supp{Supp}
+\newcommand{\uses}[1]{\xrightarrow{~ #1 ~}}
+\newcommand{\used}[1]{\xleftarrow{~ #1 ~}}
+\newcommand{\using}[1]{\xleftarrow{~ #1 ~}\kern -1em \to}
+\newcommand\LT[1][\sigma]{\LeadTerm_{#1}}
+\newcommand\LM[1][\sigma]{\LeadMonom_{#1}}
+\newcommand\LC[1][\sigma]{\LeadCoeff_{#1}}
+\newcommand\NF[1][\sigma]{\NormalForm_{#1}}
+\newcommand\Syz[2][]{\Syzygy_{#1}({#2})}
+\newcommand\Hmy[2][\,]{\Hamyuqi_{#1}({#2})}
+\newcommand\rel[1][\sigma]{\le_{\tt #1}}
+\newcommand\ler[1][\sigma]{\ge_{\tt #1}}
+\newcommand\zero{{\{0\}}}
+\newcommand\gives[1][~]{\xrightarrow{~#1~}}
+\newcommand\givesby[1]{\overset{#1}\longrightarrow}
+
+\newcommand\aSet{}
+\def\aSet\{#1|#2\}{\left\{\,#1 \;\middle|\;\allowbreak #2 \,\right\}}
+\newcommand\aset{}
+\def\aset\{#1|#2\}{\{\,#1 \mid #2 \,\}}
+\newcommand\Set[1]{\aSet\{#1\}}
+\newcommand\set[1]{\aset\{#1\}}
+
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Ann}{Ann}
+

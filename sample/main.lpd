@@ -1,0 +1,43 @@
+\begin{theindex}
+  \providecommand*\lettergroupDefault[1]{}
+  \providecommand*\lettergroup[1]{%
+      \par\textbf{#1}\par
+      \nopagebreak
+  }
+
+  \lettergroup{B}
+  \item  Bass: \rl { بس}, 132
+  \item Benoît Lemonnier: \rl {بنوا لمونیه}, 4, 136
+
+  \indexspace
+
+  \lettergroup{C}
+  \item I. S. Cohen: \rl {آی. اس. کوهن}, 1
+
+  \indexspace
+
+  \lettergroup{D}
+  \item David Hilbert: \rl {دیوید هیلبرت}, 1
+
+  \indexspace
+
+  \lettergroup{H}
+  \item David Hilbert: \rl {دیوید هیلبرت}, 1
+
+  \indexspace
+
+  \lettergroup{I}
+  \item I. S. Cohen: \rl {آی. اس. کوهن}, 1
+
+  \indexspace
+
+  \lettergroup{L}
+  \item Serge Lang: \rl {سرژ لنگ}, 9
+  \item Benoît Lemonnier: \rl {بنوا لمونیه}, 4, 136
+
+  \indexspace
+
+  \lettergroup{S}
+  \item Serge Lang: \rl {سرژ لنگ}, 9
+
+\end{theindex}

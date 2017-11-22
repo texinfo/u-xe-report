@@ -1,0 +1,55 @@
+\begin{theindex}
+  \providecommand*\lettergroupDefault[1]{}
+  \providecommand*\lettergroup[1]{%
+      \par\textbf{#1}\par
+      \nopagebreak
+  }
+
+  \lettergroup{آ}
+  \item آی. اس. کوهن: \lr {I. S. Cohen}, 1
+
+  \indexspace
+
+  \lettergroup{ا}
+  \item  افلاطون, 1
+  \item امیدعلی شهنی کرم‌زاده, 2
+
+  \indexspace
+
+  \lettergroup{ب}
+  \item  بس: \lr { Bass}, 132
+  \item بنوا لمونیه: \lr {Benoît Lemonnier}, 4, 136
+
+  \indexspace
+
+  \lettergroup{د}
+  \item دیوید هیلبرت: \lr {David Hilbert}, 1
+
+  \indexspace
+
+  \lettergroup{س}
+  \item سرژ لنگ: \lr {Serge Lang}, 9
+
+  \indexspace
+
+  \lettergroup{ک}
+  \item امیدعلی شهنی کرم‌زاده, 2
+  \item آی. اس. کوهن: \lr {I. S. Cohen}, 1
+
+  \indexspace
+
+  \lettergroup{ل}
+  \item بنوا لمونیه: \lr {Benoît Lemonnier}, 4, 136
+  \item سرژ لنگ: \lr {Serge Lang}, 9
+
+  \indexspace
+
+  \lettergroup{م}
+  \item منصور معتمدی, 2
+
+  \indexspace
+
+  \lettergroup{ه}
+  \item دیوید هیلبرت: \lr {David Hilbert}, 1
+
+\end{theindex}

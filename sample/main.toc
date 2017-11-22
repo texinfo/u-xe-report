@@ -1,0 +1,17 @@
+\contentsline {chapter}{\hbox to\@tempdima {\nobreakspace {}\hfil }چکیده}{سه}
+\contentsline {chapter}{\hbox to\@tempdima {\nobreakspace {}\hfil }{سپاسگزاری}}{هفت}
+\contentsline {chapter}{\numberline {0}پیش‌‌‌‌گفتار}{1}
+\contentsline {section}{\numberline {0‏.‏1}مقدماتی}{1}
+\contentsline {chapter}{\numberline {1}صفرگاه}{3}
+\contentsline {section}{\numberline {1‏.‏1}قضیه‌ی صفرگاه هیلبرت}{3}
+\contentsline {chapter}{\numberline {2}کرول}{5}
+\contentsline {section}{\numberline {2‏.‏1}بعد کرول}{5}
+\contentsline {chapter}{\numberline {3}بنیاد}{7}
+\contentsline {section}{\numberline {3‏.‏1}بنیاد‌ها}{7}
+\contentsline {chapter}{\numberline {4}گرویبنر}{9}
+\contentsline {section}{\numberline {4‏.‏1}پایه‌های گرویبنر}{9}
+\contentsline {chapter}{\numberline {5}دیکسون}{11}
+\contentsline {section}{\numberline {5‏.‏1}لم دیکسون}{11}
+\contentsline {chapter}{\numberline {6}مدول‌های نوتری}{13}
+\contentsline {section}{\numberline {6‏.‏1}طول زنجیر‌ها}{13}
+\contentsline {chapter}{\hbox to\@tempdima {\nobreakspace {}\hfil }مراجع}{15}

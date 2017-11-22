@@ -1,0 +1,136 @@
+\begin{theindex}
+  \providecommand*\lettergroupDefault[1]{}
+  \providecommand*\lettergroup[1]{%
+      \par\textbf{#1}\par
+      \nopagebreak
+  }
+
+  \lettergroup{ا}
+  \item ایدآل جمله‌ی پیشرو, 111
+  \item ایده‌آل تکواره‌ای, 91
+
+  \indexspace
+
+  \lettergroup{ب}
+  \item با یک حرکت کاهش می‌یابد, 116
+  \item بُعد کرول, 3
+  \item بُعد کرول کلاسیک, 3
+  \item بعد نوتری شمارا, 137
+  \item بعد نودری, 3
+
+  \indexspace
+
+  \lettergroup{پ}
+  \item پایه‌ی $\sigma $-گرویبنر کاهش‌یافته, 121
+  \item پشتیبان, 80
+
+  \indexspace
+
+  \lettergroup{ت}
+  \item ترتیب الفبایی قرینه, 101
+  \item ترتیب الفبایی معکوس, 100
+  \item ترتیب تکواره‌ای, 97
+  \item ترتیب جمله‌ای, 97
+  \item ترتیب جمله‌ای الفبایی, 98
+  \item ترتیب جمله‌ای الفبایی از آخر, 99
+  \item ترتیب جمله‌ای مدولی, 108
+  \item ترتیب درجه‌ای الفبایی, 101
+  \item ترتیب درجه‌ای الفبایی از آخر, 101
+  \item ترتیب درجه‌ای الفبایی قرینه, 102
+  \item ترتیب درجه‌ای الفبایی معکوس, 101
+  \item ترتیب مدولی, 108
+  \item ترتیب نمایش‌داده‌شده, 104
+  \item ترتیب واریته‌ای, 104
+  \item تکمدول, 91
+  \item تکیدآل, 91
+
+  \indexspace
+
+  \lettergroup{ج}
+  \item جمله, 79, 80
+  \item جمله‌ی پیشرو, 110
+
+  \indexspace
+
+  \lettergroup{خ}
+  \item خوش‌ترتیبی, 109
+
+  \indexspace
+
+  \lettergroup{د}
+  \item درجه, 80
+  \item درجه‌, 79
+  \item درجه سازگار, 103
+  \item دستگاه مولد تک‌جمله‌ای مینیمال, 94
+  \item دستگاه مولد‌ها, 91
+
+  \indexspace
+
+  \lettergroup{ر}
+  \item رابطه, 97
+  \item رابطه‌ی بازنویسی, 116
+
+  \indexspace
+
+  \lettergroup{ز}
+  \item زیرتکمدول, 91
+
+  \indexspace
+
+  \lettergroup{س}
+  \item سازگار, 108
+  \item س-بردار, 122
+
+  \indexspace
+
+  \lettergroup{ض}
+  \item ضریب, 80
+  \item ضریب پیشرو, 110
+
+  \indexspace
+
+  \lettergroup{ق}
+  \item قانون حذف, 92
+  \item قانون حذفِ چپ, 92
+  \item قانون حذفِ راست, 92
+  \item قضیه‌ی پایه‌ی هیلبرت, 2
+  \item قضیه‌ی تجزیه اولیه, 2
+  \item قضیه‌ی نرمال سازی نودر, 2
+
+  \indexspace
+
+  \lettergroup{ک}
+  \item کامل, 97
+
+  \indexspace
+
+  \lettergroup{ل}
+  \item لگاریتم, 80
+  \item لم دیکسون, 3
+  \item لمونیه, 136
+
+  \indexspace
+
+  \lettergroup{م}
+  \item مدول تکواره‌ای, 91
+  \item مدول جمله‌ی پیشرو, 111
+  \item مدول هم‌یوغی, 117
+  \item مضرب توانی, 79
+
+  \indexspace
+
+  \lettergroup{ن}
+  \item نوتری, 92
+
+  \indexspace
+
+  \lettergroup{و}
+  \item واریته‌ی متناظر, 104
+
+  \indexspace
+
+  \lettergroup{ه}
+  \item هم‌یوغی, 117
+  \item ه‍-چندجمله‌ای, 122
+
+\end{theindex}

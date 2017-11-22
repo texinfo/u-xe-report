@@ -1,0 +1,6 @@
+#!/bin/bash
+xindy -L persian-variant2 -C utf8 -M texindy  -o $1.fed $1.fex
+xindy -L english -C utf8 -M texindy  -o $1.efd $1.efx
+xindy -L english -C utf8 -M texindy  -o $1.lpd $1.lpx
+xindy -L persian-variant2 -C utf8 -M texindy  -o $1.fpd $1.fpx
+xindy -L persian-variant2 -C utf8 -M texindy  -o $1.ind $1.idx

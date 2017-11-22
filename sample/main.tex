@@ -1,0 +1,159 @@
+%!tex program = xelatex
+%!tex encoding = UTF-8 Unicode
+%!tex spellcheck = fa
+\documentclass[doctorate,defaults,
+amiri,amsmath,showtutorialintoc,
+%lalezarchapter,
+times,mathptmx,
+%index,listpersons,vojenome,
+%powerpointmode,%wide,
+%badgeo,
+%bookcut,
+%alt,
+qi,
+unicode-math]
+{u-xe-report}
+
+\usepackage{endnotes}
+
+\def\mhm#1{\textbf{#1}}
+\DeclareMathOperator{\mon}{mon}
+\def\dsb#1{\Bbb{#1}}
+\DeclareMathOperator{\nil}{nil}
+\def\Specmax{\Spec_{\max}}
+\def\Specrab{\Spec_{\mathrm{Rab.}}}
+
+
+\newfontfamily\unicodefontforsymbols{Segoe UI Symbol}
+
+\newfontinstance\xits[ItalicFeatures={FakeSlant=.41667},BoldItalicFeatures={FakeSlant=.41667}]{xits-math.otf}
+\newfontinstance\asana{Asana-Math.otf}
+\setdigitfont{IRANSans}
+\setlatintextfont[Scale=1.315]{Myriad Arabic}
+
+\surname[Ghayour]{غیور نجف‌آباد}
+
+\geroyec[Commutative Algebra]{جبرجابجایی}
+%\usepackage{unicode-math}
+%\setmathfont{xits-math.otf}
+%\usepackage{mathptmx}
+%\usepackage{newunicodechar}
+%\newunicode{22F0}{\adots}}
+
+
+\mathsubjprimary[۱۳پ۱۰]{13P10}
+\mathsubjsecondary[۶۸ئو۳۰]{68W30}
+%\mathsubjsecondary[۱۴ق۰۱]{14Q01}
+\mathsubjsecondary[۱۶ز۰۵]{16Z05}
+\title[Computation of Grobner Basis]
+{محاسبه پایه‌ی گروبنر}
+\supervisor[Omid-Ali Shahny Karamzadeh]
+{امیدعلی شهنی کرم‌زاده}
+\advisor[Mehrdad Namdari]{مهرداد نامداری}
+\supervisor[Maryam Davoodian]{مریم داودیان}
+\nom[Omid]{امید}
+\nomexonevodegi[Ghayour]{غیور}
+\torix[2017]{۱۳۹۶}
+\torixenegorec[Sunday, March 8, 2015]{یکشنبه ۱۷ اسفند ۱۳۹۳}	
+\kelidvojeho
+[Ring of Polynomials over a Field, Ideals, Noetherian dimension, Artinian Modules, Polynomoids, \& Length]
+{ حلقه‌ی چند‌جمله‌ای‌ها روی یک میدان، ایده‌آل‌ها، بعد نوتری، مدول‌های آرتینی، چندجمله‌ای‌وارها، و طول}
+
+\tcekide
+[In this work we studied on comptation, computability, and implimentation of computational algorithms for ideals of polynomials over a field and commutative modules.]
+{این پایان‌نامه، به بحث در مورد محاسبه و محاسبه پذیری و پیاده سازی الگوریتم‌های محاسباتی برای ایدآل‌های چندجمله‌ای‌ها بر روی یک میدان و مدول‌های روی حلقه‌های جابجایی پرداخته‌ایم. }
+
+\seposguzorifile{seposguzori}
+
+\newfontinstance\greek[Scale=1.25]{GFS Didot Classic}
+
+\muqaddameqoute
+[-- \شخص{}{افلاطون}(نوشته‌ی بالای درب آکادمیا)]
+{{\lr{{\greek ἀγεωμέτρητος μηδεὶς εἰσίτω}}}
+\\{\nastaliq
+ هر کس که هندسه نمی‌داند  وارد  نشود}}
+\muqaddamefile{muqaddame}
+\muqaddametitle{پیش‌‌‌‌گفتار}
+%%\taqdimiye[تقدیم به]
+%%{
+%%\begin{tabularx}{\textwidth}{lX}
+%%همسرم {\unicodefontforsymbols ⚘}&که دلیل اصلی نگارش این رساله بود. \\
+%%مادرم {\unicodefontforsymbols ❀}&که دوست داشت دکتر شوم، البته، \\
+%%& دوست داشت پزشک یا دکترمهندس شوم! {\unicodefontforsymbols ☺}\\ 
+%%\\
+%%پدرم و پسرم&مردان عزیزی که آن‌ها را آینه‌ی خود می‌دانم!\\
+%%خواهرم و دخترم&که خنده‌های شیرین‌شان همیشه انگیزه‌بخش بوده.\\
+%%\\
+%%پروفسورکرم‌زاده&که افکارش مسیر ادامه‌ی تحصیلم را تغییر داد! \\
+%%\\
+%%\end{tabularx}
+%%
+%%\noindent
+%%افلاطون، ارسطو، فیثاغورس، اقلیدس، خوارزمی، خیام، اویلر، اردیش، مندل‌برات، پرلمان، آسیموف، شهریاری، و کنوث
+%%
+%%\hfill --- که کارهایشان مرا شیفته‌ی ریاضی کرد. \\
+%% 
+%%
+%% 
+%% و معلمانی که نامشان را فراموش نمی‌کنم.
+%% 
+%% ~\hfill
+%%\begin{minipage}{6cm}
+%%میسیز وودز -- از دبستان
+%%
+%%آقای باورصاد -- از راهنمایی
+%%
+%%آقای باسردویی -- از دبیرستان
+%%
+%%پروفسور معتمدی -- از کارشناسی
+%%\end{minipage}
+%%\hfill~\\[2mm]
+%%
+%%\noindent 
+%%مادربزرگ‌هایم و\\
+%%\indent
+%% پدربزرگم ({خواجه ابوالمحمد حافظی بیرگانی})
+%% 
+%%~\hfill  — که برای من الگویی بوده است، تا هرگز دست از مطالعه بر ندارم.
+%%
+%%~\hfill ~ — روحشان شاد!
+%%
+%%}
+
+%\includeonly{dovwdiyon}
+\input{compalg}
+\usepackage{lipsum}
+\def\maxswsname{پیاده‌سازی}
+\begin{document}
+%\بخش{واژگان جبرجابجایی}%آلمان
+%\setdigitfont[Scale=1.728]{Yas}
+\include{sefrgoh2}
+%\include{zoriski}
+%\include{soyer}
+%%%%%%%%%%%%%%
+\include{krull}
+%\بخش{محاسبات جبری}%ایتالیا
+\include{bunyod}
+\include{gruybner}
+\include{diksun-forsi}	
+\include{dovwdiyon}
+%\بخش{چالش‌های پایه‌ی گروبنر}%ایران
+\appendix % in dastwr baroye in ast ke mucaxxas kunim az indjo be ba'd zamoem darj micavand
+%\include{korburd}\include{piyodesozi}\include{behbwdyofte}
+%\include{poyon}
+%
+%\include{avvalin}
+%\include{poyon}
+%\include{adabiyot}
+%\include{torix}
+%\include{darbore}
+\makeatletter
+\if@badgeoopted
+\baselineskip=9mm
+\fi
+\makeatother
+\include{Refrences}
+%\bibliographystyle{umid-scu}
+%\bibliography{mylibrary}
+
+\end{document}

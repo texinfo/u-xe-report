@@ -1,0 +1,21 @@
+\begin{theindex}
+  \providecommand*\lettergroupDefault[1]{}
+  \providecommand*\lettergroup[1]{%
+      \par\textbf{#1}\par
+      \nopagebreak
+  }
+
+  \lettergroup{A}
+  \item algebraic substructures: \rl {زیرساختارهای جبری}, 5
+
+  \indexspace
+
+  \lettergroup{C}
+  \item co-deviation: \rl {هم‌انحراف}, 4
+
+  \indexspace
+
+  \lettergroup{L}
+  \item Laurent: \rl {لوران}, 16
+
+\end{theindex}
